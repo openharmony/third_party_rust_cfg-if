@@ -1,0 +1,34 @@
+{
+  "name": "@ohos/rust_cfg_if",
+  "description": "A macro that allows conditional compilation based on a set of configuration options",
+  "version": "6.1",
+  "license": "Apache License 2.0",
+  "publishAs": "code-segment",
+  "segment": {
+    "destPath": "third_party/rust/crates/cfg-if"
+  },
+  "dirs": {},
+  "scripts": {},
+  "readmePath": {
+    "en": "README.md"
+  },
+  "component": {
+    "name": "rust_cfg_if",
+    "subsystem": "thirdparty",
+    "adapted_system_type": [
+      "standard"
+    ],
+    "deps": {
+      "components": []
+    },
+    "build": {
+      "sub_component": [],
+      "inner_kits": [
+        {
+          "name": "//third_party/rust/crates/cfg-if:lib"
+        }
+      ],
+      "test": []
+    }
+  }
+}
